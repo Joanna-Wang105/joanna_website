@@ -72,9 +72,9 @@ export default function Home() {
           </h2>
           <div className="flex-grow border-t border-gray-300"></div>
         </div>
-        <div className="flex flex-col lg:flex-row justify-evenly gap-y-9">
+        <div className="flex flex-col lg:flex-row justify-evenly gap-y-9 gap-10 lg:mx-10 md:mx-16">
           {/* Web dev project */}
-          <div className="card w-full card-xl shadow-xl lg:max-w-lg bg-gray-50">
+          <div className="card w-full card-xl shadow-xl bg-gray-50 lg:max-w-full">
             <div className="card-body">
               <p>
                 <i class="fa-brands fa-react text-blue-400"></i> Web Development
@@ -99,7 +99,7 @@ export default function Home() {
 
               <p>🛠️ Built with React, Tailwind CSS, Java</p>
               <a
-                href="https://github.com/UQcsse3200/2024-studio-3"
+                href="https://github.com/Joanna-Wang105/joanna_website#"
                 className="text-blue-400"
                 target="_blank"
               >
@@ -109,7 +109,7 @@ export default function Home() {
           </div>
 
           {/* Java team project */}
-          <div className="card bg-gray-50 w-full card-xl shadow-xl lg:max-w-lg">
+          <div className="card bg-gray-50 w-full card-xl shadow-xl lg:max-w-full">
             <div className="card-body">
               <p>
                 <i class="fa-brands fa-java text-orange-600"></i> Cooking Game
