@@ -14,7 +14,7 @@ export const experiences = [
     id: "2",
     title: "Front-End Developer - React",
     company: "Galaxy Software Services (GSS) in Taiwan",
-    startDate: "Decembner 2024",
+    startDate: "December 2024",
     endDate: "January 2025",
     type: "Internship",
     description:

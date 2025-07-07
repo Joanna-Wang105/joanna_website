@@ -9,8 +9,8 @@ export default function ExperienceCard({ experience }) {
   };
 
   return (
-    <div className="card w-full">
-      <div className="card-body">
+    <div className="card bg-base-100 shadow-lg">
+      <div className="card-body flex flex-col justify-start h-full">
         <p className="text-md text-gray-500">
           {experience.startDate} - {experience.endDate}
         </p>
@@ -24,8 +24,8 @@ export default function ExperienceCard({ experience }) {
           <i class="fa-solid fa-location-dot text-red-600"></i>{" "}
           {experience.company}
         </p>
+        <p className="experience-descrip">{experience.description}</p>
       </div>
-      <p className="experience-descrip">{experience.description}</p>
     </div>
   );
 }
