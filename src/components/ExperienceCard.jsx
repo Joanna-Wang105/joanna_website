@@ -9,23 +9,28 @@ export default function ExperienceCard({ experience }) {
   };
 
   return (
-    <div className="card bg-base-100 shadow-lg">
-      <div className="card-body flex flex-col justify-start h-full">
-        <p className="text-md text-gray-500">
-          {experience.startDate} - {experience.endDate}
-        </p>
-        <div className="flex items-center w-fit">
-          <p className="text-xl lg:text-2xl font-bold">{experience.title}</p>
-          <p className="experience-type self-center" style={styles}>
-            {experience.type}
-          </p>
-        </div>
-        <p className="text-md">
-          <i class="fa-solid fa-location-dot text-red-600"></i>{" "}
-          {experience.company}
-        </p>
-        <p className="experience-descrip">{experience.description}</p>
+    <div className="flex flex-col bg-white rounded-xl shadow-lg p-4 h-full border-gray-300 border-1">
+      <span className="text-gray-500 text-sm">
+        {experience.startDate} - {experience.endDate}
+      </span>
+
+      <div className="mb-2 gap-2 w-fit flex flex-row flex-wrap items-center">
+        <h2 className="mb-2 font-bold text-2xl leading-tight break-words">
+          {experience.title}
+        </h2>
+        <span
+          className="px-2 py-1 text-xs font-semibold rounded"
+          style={styles}
+        >
+          {experience.type}
+        </span>
       </div>
+
+      <div className="pb-3">
+        <i className="fa-solid fa-location-dot text-red-600 mr-1" />
+        <span>{experience.company}</span>
+      </div>
+      <p className="experience-descrip">{experience.description}</p>
     </div>
   );
 }
