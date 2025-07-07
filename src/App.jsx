@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Home from "./components/Home";
+import Experience from "./components/Experience";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,9 +16,8 @@ function App() {
         <Header navLinks={navLinks} />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path='/about' element={<About />} />
-              <Route path='/experiences' element={<Experiences />} />
-              <Route path='/certificates' element={<Certificates />} /> */}
+          <Route path="/experiences" element={<Experience />} />
+          {/* <Route path='/certificates' element={<Certificates />} /> */}
         </Routes>
       </div>
     </Router>

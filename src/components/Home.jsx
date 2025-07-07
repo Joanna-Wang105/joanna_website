@@ -81,8 +81,8 @@ export default function Home() {
               </p>
               <h2 className="card-title">My Portfolio - This Website</h2>
               <p className="pb-2">
-                A personal portfolio website showcasing my experience and
-                projects
+                A personal portfolio website showcasing my experience, projects,
+                and certificates
               </p>
               <p>
                 <i class="fa-solid fa-check text-green-500"></i> Fully
@@ -97,7 +97,7 @@ export default function Home() {
                 User-centered design with intuitive navigation
               </p>
 
-              <p>🛠️ Built with React, Tailwind CSS, Java</p>
+              <p>🛠️ Built with React, Tailwind CSS, JavaScript</p>
               <a
                 href="https://github.com/Joanna-Wang105/joanna_website#"
                 className="text-blue-400"
