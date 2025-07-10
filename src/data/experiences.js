@@ -40,16 +40,6 @@ export const experiences = [
   },
   {
     id: "5",
-    title: "UQ Open Day Volunteering",
-    company: "The University of Queensland",
-    startDate: "August 2024",
-    endDate: "August 2024",
-    type: "Volunteer",
-    description:
-      "Guided people to their destinations and helped them when they reached out",
-  },
-  {
-    id: "6",
     title: "UQ Women in Computing Open Day",
     company: "The University of Queensland",
     startDate: "August 2024",
@@ -57,5 +47,15 @@ export const experiences = [
     type: "Volunteer",
     description:
       "Shared my experience as a computer science student at UQ with prospective students and their families in UQ Open Day",
+  },
+  {
+    id: "6",
+    title: "BiG Day In - Brisbane",
+    company: "Australian Computer Society (ACS)",
+    startDate: "June 2025",
+    endDate: "June 2025",
+    type: "Volunteer",
+    description:
+      "Inspiring 200 students from Year 9-12 to explore technology and university life.",
   },
 ];
