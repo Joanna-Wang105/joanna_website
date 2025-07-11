@@ -114,7 +114,7 @@ export default function Home() {
               <p>
                 <i class="fa-brands fa-java text-orange-600"></i> Cooking Game
               </p>
-              <h2 className="card-title ">Beastly Bistro</h2>
+              <h2 className="card-title ">Beastly Bistro - Group Project</h2>
               <p className="pb-2">
                 A story-driven cooking simulation game combining resource
                 management and time-sensitive gameplay.

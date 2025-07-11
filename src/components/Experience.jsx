@@ -18,7 +18,7 @@ export default function Experience() {
         value={selectedType}
         onChange={(e) => setSelectedType(e.target.value)}
       >
-        <option value="all">all</option>
+        <option value="all">All</option>
         <option value="Internship">Internship</option>
         <option value="Part-Time">Part-time</option>
         <option value="Volunteer">Volunteering</option>

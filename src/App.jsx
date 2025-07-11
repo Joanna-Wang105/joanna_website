@@ -1,13 +1,14 @@
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const navLinks = [
     { path: "/", text: "Home" },
     { path: "/experiences", text: "Experiences" },
-    { path: "/certificates", text: "Certificates" },
+    { path: "/contact", text: "Contact" },
   ];
 
   return (
@@ -17,7 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/experiences" element={<Experience />} />
-          {/* <Route path='/certificates' element={<Certificates />} /> */}
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
