@@ -13,7 +13,7 @@ export default function Home() {
           </figure>
           <div className="flex flex-col gap-4">
             <h1 className="text-2xl md:text-4xl font-bold">
-              Hi, I'm Joanna Wang
+              Hi, I'm Joanna Wang 👋
             </h1>
             <p className="text-xl md:text-2xl">
               Web Developer | Penultimate year of B.CompSci / M.CybrSec @ UQ
