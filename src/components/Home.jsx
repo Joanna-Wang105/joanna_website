@@ -52,7 +52,7 @@ export default function Home() {
             {/* Resume */}
             <div className="border border-green px-4 py-2 mt-2 rounded-lg w-fit hover:scale-105 transition-transform duration-300">
               <a
-                href="public/resume/Joanna_Wang_resume.pdf"
+                href="/resume/Joanna_Wang_resume.pdf"
                 download="Joanna_Wang_Resume.pdf"
                 className="text-base text-gray-800 font-medium"
               >
