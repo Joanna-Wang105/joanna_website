@@ -6,7 +6,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row md:gap-16 gap-8 p-6 justify-center">
           <figure className="self-center md:self-center">
             <img
-              src="public/images/profile_pic.jpg"
+              src="/images/profile_pic.jpg"
               alt="my profile picture"
               className="w-54 h-54 rounded-full object-cover"
             />
