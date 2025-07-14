@@ -97,7 +97,7 @@ export default function Home() {
                 User-centered design with intuitive navigation
               </p>
 
-              <p>🛠️ Built with React, Tailwind CSS, JavaScript</p>
+              <p>🛠️ Built with React, Tailwind CSS, JavaScript, Vercel</p>
               <a
                 href="https://github.com/Joanna-Wang105/joanna_website#"
                 className="text-blue-400"
