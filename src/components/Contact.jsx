@@ -17,7 +17,7 @@ export default function Contact() {
       </p>
 
       <p className="text-center text-md text-gray-500 italic mt-4 mb-10">
-        歡迎聯絡我 <br></br> 日本語でもご遠慮なくご連絡ください too!
+        歡迎聯絡我 <br></br> 日本語でもご遠慮なくご連絡ください!
       </p>
 
       <div className="flex flex-col md:flex-row justify-evenly">
