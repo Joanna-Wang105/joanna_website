@@ -31,6 +31,16 @@ export const experiences = [
   },
   {
     id: "4",
+    title: "UQ Casual Academic",
+    company: "The University of Queensland",
+    startDate: "July 2025",
+    endDate: "November 2025",
+    type: "Part-Time",
+    description:
+      "UQ Casual Academic for COMP2140, guiding students through functional JavaScript, React, and React Native development.",
+  },
+  {
+    id: "5",
     title: "UQ EAIT Faculty Ambassador",
     company: "The University of Queensland",
     startDate: "March 2025",
@@ -39,7 +49,7 @@ export const experiences = [
     description: "Acted as a bridge between UQ and prospective STEM students",
   },
   {
-    id: "5",
+    id: "6",
     title: "UQ Women in Computing Open Day",
     company: "The University of Queensland",
     startDate: "August 2024",
@@ -49,7 +59,7 @@ export const experiences = [
       "Shared my experience as a computer science student at UQ with prospective students and their families in UQ Open Day",
   },
   {
-    id: "6",
+    id: "7",
     title: "BiG Day In - Brisbane",
     company: "Australian Computer Society (ACS)",
     startDate: "June 2025",
