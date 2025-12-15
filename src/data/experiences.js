@@ -68,4 +68,14 @@ export const experiences = [
     description:
       "Inspiring 200 students from Year 9-12 to explore technology and university life.",
   },
+  {
+    id: "8",
+    title: "YOW! Conference - Brisbane",
+    company: "YOW! Conference",
+    startDate: "December 2025",
+    endDate: "December 2025",
+    type: "Volunteer",
+    description:
+      "Supported event operations by ensuring speakers were prepared before each track and contributing to a welcoming 300 attendee experience. Collaborated with speakers, attendees, YOW! crew members, and volunteers.",
+  },
 ];
